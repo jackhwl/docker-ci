@@ -36,5 +36,21 @@ unshare --mount --uts --ipc --net --pid --fork --user --map-root-user chroot /be
 * ## Node.js on Docker
     * docker run -it node:12-stretch
     * docker run -it node:12-stretch bash
+* ## Tags
+* ## Docker CLI
+    * docker pull jturpin/hollywood
+    * docker run -it jturpin/hollywood hollywood 
+    * docker inspect node:12-stretch
+    * docker pause constainerId
+    * docker unpause constainerId
+    * docker stop $(docker ps -q)
+    * docker history node:12-stretch
+    * docker info
+    * docker rm containerId
+    * docker rmi containerId
+    * docker container prune
+    * docker restart name
+    * docker search python
+
 Windows Install 
 wsl -l
