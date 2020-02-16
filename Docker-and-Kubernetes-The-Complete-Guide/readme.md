@@ -6,3 +6,7 @@
   * ## Listing Running Containers
     * docker ps
     * docker ps --all
+  * ## Container Lifecycle
+    * docker run = docker create + docker start
+    * docker create hello-world
+    * docker start containerId
