@@ -51,6 +51,10 @@ unshare --mount --uts --ipc --net --pid --fork --user --map-root-user chroot /be
     * docker container prune
     * docker restart name
     * docker search python
-
+# The Dockerfile
+* ## Dockerfiles Preamble
+    * docker build .
+    * docker build --tag my-node-app .
+    * docker build --tag my-node-app:1 .
 Windows Install 
 wsl -l
