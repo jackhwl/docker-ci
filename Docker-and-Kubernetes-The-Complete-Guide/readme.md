@@ -10,3 +10,6 @@
     * docker run = docker create + docker start
     * docker create hello-world
     * docker start containerId
+  * ## Restarting Stopped Containers
+    * docker ps --all
+    * docker start -a containerId
