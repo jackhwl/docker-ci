@@ -13,6 +13,10 @@ apt-get install -y cgroup-tools htop
 cgcreate -g cpu,memory,blkio,devices,freezer:/sanbox
 unshare --mount --uts --ipc --net --pid --fork --user --map-root-user chroot /better-root bash
 
+# Docker
+* ## Getting Set Up with Docker
+   docker ps
+
 
 Windows Install 
 wsl -l
