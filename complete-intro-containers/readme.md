@@ -33,5 +33,8 @@ unshare --mount --uts --ipc --net --pid --fork --user --map-root-user chroot /be
     * docker image prune 
     * docker run -it --detach ubuntu:bionic
     * docker attach containerNameOrid
+* ## Node.js on Docker
+    * docker run -it node:12-stretch
+    * docker run -it node:12-stretch bash
 Windows Install 
 wsl -l
