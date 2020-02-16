@@ -16,6 +16,8 @@ unshare --mount --uts --ipc --net --pid --fork --user --map-root-user chroot /be
 # Docker
 * ## Getting Set Up with Docker
    docker ps
+* ## Docker Images without Docker
+   docker run -ti -v /var/run/docker.sock:/var/run/docker.sock --privileged --rm --name docker-host docker:18.06.1-ce
 
 
 Windows Install 
