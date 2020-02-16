@@ -13,3 +13,17 @@
   * ## Restarting Stopped Containers
     * docker ps --all
     * docker start -a containerId
+  * ## Removing Stopped Containers
+    * docker system prune
+  * ## Retrieving Log Outputs
+    * docker logs containerId
+  * ## Stopping Containers
+    * docker stop containerId after 10 seconds will fall back to kill command
+    * docker kill containerId
+  * ## Multi-Command Containers, Executing Commands in Running Containers, The Purpose of the IT Flag
+    * docker run redis
+    * docker exec -it containerId redis-cli
+    * -it = -i -t
+    * docker exec -it containerId sh
+    * docker run -it imageName sh
+    
