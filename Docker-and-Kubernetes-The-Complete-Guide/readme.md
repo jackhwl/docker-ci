@@ -26,4 +26,11 @@
     * -it = -i -t
     * docker exec -it containerId sh
     * docker run -it imageName sh
-    
+# Building Custom Images Through Docker Server
+  * ## Creating Docker Images
+  * ## Building a Dockerfile
+    * docker build .
+    * docker run containerId
+  * ## Dockerfile Teardown
+  * ## What's a Base Image?
+  * ## The Build Process in Detail
