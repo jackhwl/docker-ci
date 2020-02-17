@@ -60,5 +60,11 @@ unshare --mount --uts --ipc --net --pid --fork --user --map-root-user chroot /be
     * docker build --tag my-node-app .
     * docker run --init my-node-appc
     * docker run --init --rm --publish 4001:4000 my-node-app
+* ## Run a Node.js App
+* ## Add Dependencies to a Node.js App
+* ## EXPOSE
+* ## Layers
+* ## Docker Ignore
+
 Windows Install 
 wsl -l
