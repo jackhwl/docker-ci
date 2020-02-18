@@ -34,3 +34,9 @@
   * ## Dockerfile Teardown
   * ## What's a Base Image?
   * ## The Build Process in Detail
+  * ## A Brief Recap
+  * ## Rebuilds with Cache
+    * docker build -t jackhwl/redis:latest .
+  * ## Manual Image Generation with Docker Commit
+    * docker commit -c 'CMD ["redis-serer"]' containerId
+    
