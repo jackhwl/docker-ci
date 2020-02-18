@@ -40,5 +40,5 @@
   * ## Manual Image Generation with Docker Commit
     * docker commit -c 'CMD ["redis-serer"]' containerId
     * docker build -t jackhwl/simpleweb .
-    * docker run jackhwl/simpleweb
+    * docker run -p 8090:8090 jackhwl/simpleweb
     
