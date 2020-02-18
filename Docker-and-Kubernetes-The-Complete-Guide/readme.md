@@ -39,4 +39,6 @@
     * docker build -t jackhwl/redis:latest .
   * ## Manual Image Generation with Docker Commit
     * docker commit -c 'CMD ["redis-serer"]' containerId
+    * docker build -t jackhwl/simpleweb .
+    * docker run jackhwl/simpleweb
     
