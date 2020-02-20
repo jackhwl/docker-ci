@@ -32,7 +32,7 @@
     * docker build .
     * docker run containerId
   * ## Dockerfile Teardown
-  * ## What's a Base Image?
+  * ## What's a Base Image?up
   * ## The Build Process in Detail
   * ## A Brief Recap
   * ## Rebuilds with Cache
@@ -41,4 +41,5 @@
     * docker commit -c 'CMD ["redis-serer"]' containerId
     * docker build -t jackhwl/simpleweb .
     * docker run -p 8090:8090 jackhwl/simpleweb
-    
+# Docker Compose with Multiple Local Containers
+  * docker-compose up --build

@@ -13,10 +13,9 @@ app.get('/', (req, res) => {
         res.send('Number of visits is ' + visits)
         client.set('visits', parseInt(visits) + 1)
     })
-    res.send('Hi there')
 })
 
-const port = 8091
+const port = 8081
 
 app.listen(port, () => {
     console.log('Listening on port:', port)
