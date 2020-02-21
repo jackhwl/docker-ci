@@ -65,6 +65,12 @@ unshare --mount --uts --ipc --net --pid --fork --user --map-root-user chroot /be
 * ## EXPOSE
 * ## Layers
 * ## Docker Ignore
+# Making Tiny Containers
+# Features in Docker
+  * ## Bind Mounts
+  * docker run --mount type=bind,source="$(pwd)"/build,target=/usr/share/nginx/html -p 8082:80 nginx
+  * ## Volumes
+  * docker run --env DATA_PATH=/data/num.txt --mount type=volume,src=incrementor-data,target=/data incrementor
 
 Windows Install 
 wsl -l
