@@ -48,4 +48,4 @@
   * Restart Polices: no, always, on-failure, unless-stopped
   * docker-compose ps
 # Creating a Production-Grade Workflow
-  * 
+  * docker build -f Dockerfile.dev .
