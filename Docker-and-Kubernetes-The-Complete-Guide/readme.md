@@ -46,4 +46,5 @@
   * docker-compose up --build
   * docker-compose 
   * Restart Polices: no, always, on-failure, unless-stopped
+  * docker-compose ps
 
