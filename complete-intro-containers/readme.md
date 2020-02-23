@@ -71,6 +71,18 @@ unshare --mount --uts --ipc --net --pid --fork --user --map-root-user chroot /be
   * docker run --mount type=bind,source="$(pwd)"/build,target=/usr/share/nginx/html -p 8082:80 nginx
   * ## Volumes
   * docker run --env DATA_PATH=/data/num.txt --mount type=volume,src=incrementor-data,target=/data incrementor
+  * ## Networks & Docker: MongoDB Container
+  * https://btholt.github.io/complete-intro-to-containers/networking
+  * docker network ls
+  * docker network rm NID
+  * docker network create --driver=bridge app-net
+  * docker run -d --network=app-net -p 27017:27017 --name=db --rm mongo:3
+  * docker run -it --network=app-net --rm mongo:3 mongo --host db
+  * npm install mongodb@3.3 # you need to add mongodb to your project
+  * docker build --tag=my-app-with-mongo .
+  * docker run -p 3000:3000 --network=app-net --env MONGO_CONNECTION_STRING=mongodb://db:27017 my-app-with-mongo
+  
+  
 
 Windows Install 
 wsl -l
