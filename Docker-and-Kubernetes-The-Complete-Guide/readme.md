@@ -42,6 +42,7 @@
     * docker build -t jackhwl/simpleweb .
     * docker run -p 8090:8090 jackhwl/simpleweb
 # Docker Compose with Multiple Local Containers
+  * docker-compose down
   * docker-compose up
   * docker-compose up --build
   * docker-compose 
