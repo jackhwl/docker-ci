@@ -3,7 +3,7 @@ import axios from 'axios'
 
 class Fib extends Component {
     state = {
-        seeIndexes: [],
+        seenIndexes: [],
         values: {},
         index: ''
     }
@@ -32,7 +32,7 @@ class Fib extends Component {
         this.setState({ index: '' })
     }
     renderSeenIndexes() {
-        return this.state.seeIndexes.map((number) => number ).join(', ')
+        return this.state.seenIndexes.map(({number}) => number ).join(', ')
     }
 
     renderValues() {
