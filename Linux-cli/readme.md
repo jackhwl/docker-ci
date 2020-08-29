@@ -5,3 +5,8 @@
 ## Bash History
 * reverse search Ctrl+R
 * clear = ^L
+
+## Signals
+^C 
+^D = logout
+kill -l
