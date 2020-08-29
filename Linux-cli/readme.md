@@ -10,3 +10,7 @@
 ^C 
 ^D = logout
 kill -l
+
+## Editor
+nano
+VIM Escape  :w :q :qa!
