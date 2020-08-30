@@ -14,3 +14,12 @@ kill -l
 ## Editor
 nano
 VIM Escape  :w :q :qa!
+
+# Files, Pipes, & Permissions
+* less 
+* more
+* less --help
+* man less
+* cat   
+* tail -f log.txt
+* mkdir -p hi/my/name/is/jack
