@@ -23,3 +23,9 @@ VIM Escape  :w :q :qa!
 * cat   
 * tail -f log.txt
 * mkdir -p hi/my/name/is/jack
+* touch: create or change lastModifiedTime
+* rm file, rm -r folder 
+* cp -R
+* mv  
+* tar
+* {1..9} * ? \
