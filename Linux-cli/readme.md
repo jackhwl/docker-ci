@@ -29,3 +29,8 @@ VIM Escape  :w :q :qa!
 * mv  
 * tar
 * {1..9} * ? \
+* cat file1.txt 1> file2.txt
+* cat file1.txt 1>> file2.txt
+* cat non-existant-file.txt 2> error.txt
+* cat a.txt > b.txt
+* cat some-file.txt 2> /dev/null
