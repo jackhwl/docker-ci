@@ -34,3 +34,5 @@ VIM Escape  :w :q :qa!
 * cat non-existant-file.txt 2> error.txt
 * cat a.txt > b.txt
 * cat some-file.txt 2> /dev/null
+* cat < newfile.txt
+* grep "ls-error.txt" < ls.txt
