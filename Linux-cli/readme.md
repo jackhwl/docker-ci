@@ -36,3 +36,9 @@ VIM Escape  :w :q :qa!
 * cat some-file.txt 2> /dev/null
 * cat < newfile.txt
 * grep "ls-error.txt" < ls.txt
+* ps aux | grep "ps aux"
+* yes > /dev/null &
+* ps aux | grep "yes"
+* kill -9 12335
+* touch file{1..30}.txt
+* yes | rm -i file*
