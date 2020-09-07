@@ -46,3 +46,6 @@ VIM Escape  :w :q :qa!
 * sudo whoami
 * sudo su
 * exit
+* sudo useradd wenlin
+* sudo passwd wenlin
+* su wenlin
