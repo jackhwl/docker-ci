@@ -43,3 +43,6 @@ VIM Escape  :w :q :qa!
 * touch file{1..30}.txt
 * yes | rm -i file*
 * cat /etc/passwd
+* sudo whoami
+* sudo su
+* exit
