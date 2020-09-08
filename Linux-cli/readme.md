@@ -49,3 +49,4 @@ VIM Escape  :w :q :qa!
 * sudo useradd wenlin
 * sudo passwd wenlin
 * su wenlin
+* sudo usermod -aG sudo wenlin   add wenlin to sudo group
