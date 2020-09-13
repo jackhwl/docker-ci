@@ -50,3 +50,5 @@ VIM Escape  :w :q :qa!
 * sudo passwd wenlin
 * su wenlin
 * sudo usermod -aG sudo wenlin   add wenlin to sudo group
+* sudo chown ubuntu:ubuntu /hello
+* sudod chmod u=rw, g=rw, o=rw hello.txt
