@@ -55,3 +55,9 @@ VIM Escape  :w :q :qa!
 * sudo chmod 777 file.txt  
 * sudo chmod +x hello.txt
 * sudo chmod -w hello.txt
+
+# Environments & Processes
+  * echo $USER
+  * vi ~/.bashrc
+  * source ~/.bashrc 
+  * vi .bash_profile
