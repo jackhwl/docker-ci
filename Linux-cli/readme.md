@@ -61,3 +61,10 @@ VIM Escape  :w :q :qa!
   * vi ~/.bashrc
   * source ~/.bashrc 
   * vi .bash_profile
+
+# Processes
+  * sleep 10 &
+  * ps
+  * ps aux | less
+  * ps aux | grep "ps"
+  
