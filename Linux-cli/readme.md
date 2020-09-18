@@ -67,4 +67,9 @@ VIM Escape  :w :q :qa!
   * ps
   * ps aux | less
   * ps aux | grep "ps"
+  * sleep 1000
+  * ^Z
+  * jobs
+  * bg 1
+  * fg 1
   
