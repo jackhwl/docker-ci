@@ -80,3 +80,9 @@ VIM Escape  :w :q :qa!
   * false
   * false || echo hi
   * true ; false ; echo hi
+
+* Subcommands
+  * echo I think $(whoami) is a really cool user
+  * echo current date is $(date)
+  * echo $(date +%x) - $(uptime) >> log.txt
+  * echo hi `whoami`, how are you
