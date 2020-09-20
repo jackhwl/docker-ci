@@ -73,3 +73,10 @@ VIM Escape  :w :q :qa!
   * bg 1
   * fg 1
   
+* Exit codes & Process Operators
+  * echo $?
+  * touch status.txt && date >> status.txt && uptime >> status.txt
+  * uptime
+  * false
+  * false || echo hi
+  * true ; false ; echo hi
