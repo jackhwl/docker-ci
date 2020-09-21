@@ -86,3 +86,8 @@ VIM Escape  :w :q :qa!
   * echo current date is $(date)
   * echo $(date +%x) - $(uptime) >> log.txt
   * echo hi `whoami`, how are you
+
+# Networking & the Internet
+  * multipass launch --name secondary
+  * ssh-keygen -t rsa
+  
