@@ -90,4 +90,5 @@ VIM Escape  :w :q :qa!
 # Networking & the Internet
   * multipass launch --name secondary
   * ssh-keygen -t rsa
-  
+  * ssh
+  * sftp
