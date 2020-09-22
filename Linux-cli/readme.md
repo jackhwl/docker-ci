@@ -92,3 +92,7 @@ VIM Escape  :w :q :qa!
   * ssh-keygen -t rsa
   * ssh
   * sftp
+  * Wget
+  * wget https://raw.githubusercontent.com/btholt/bash2048/master/bash2048.sh
+  * chmod +x bash2048.sh
+  * ./bash2048.sh
