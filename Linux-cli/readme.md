@@ -99,3 +99,7 @@ VIM Escape  :w :q :qa!
   * curl https://raw.githubusercontent.com/btholt/bash2048/master/bash2048.sh > game.sh
   * python3 -m http.server 8000 --bind 0.0.0.0
   * multipass shell primary
+  * curl -X POST http://192.168.0.2
+  * curl -d "this is post body" http://192.168.0.2
+  * -b cookies, -c cookie jar; -H header
+  * curl .... | bash
