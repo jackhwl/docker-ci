@@ -96,3 +96,6 @@ VIM Escape  :w :q :qa!
   * wget https://raw.githubusercontent.com/btholt/bash2048/master/bash2048.sh
   * chmod +x bash2048.sh
   * ./bash2048.sh
+  * curl https://raw.githubusercontent.com/btholt/bash2048/master/bash2048.sh > game.sh
+  * python3 -m http.server 8000 --bind 0.0.0.0
+  * multipass shell primary
