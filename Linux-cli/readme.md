@@ -129,3 +129,5 @@ VIM Escape  :w :q :qa!
   * source gen_files.sh
   * . gen_files.sh
   * bash gen_files.sh
+  * #! /snap/bin/node
+  * console.log('this is running from node.js')
