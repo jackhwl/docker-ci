@@ -120,3 +120,12 @@ VIM Escape  :w :q :qa!
   * sudo snap install lolcat
   * sudo snap info node
   * sudo snap install --channel=14/stable --classic node
+
+  # Shell Scripts
+  * mkdir -p ~/temp
+  * cd ~temp
+  * touch file{1..10}.txt
+  * echo done
+  * source gen_files.sh
+  * . gen_files.sh
+  * bash gen_files.sh
