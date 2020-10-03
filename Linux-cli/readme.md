@@ -103,3 +103,16 @@ VIM Escape  :w :q :qa!
   * curl -d "this is post body" http://192.168.0.2
   * -b cookies, -c cookie jar; -H header
   * curl .... | bash
+
+# Package Management & APT Basics
+  * aptitude
+  * apt-get install
+  * apt install
+  * sudo !!
+  * apt install lolcat
+  * ls -lsah | lolcat
+  * sudo apt autoremove
+  * sudo apt update
+  * apt list
+  * apt list --upgradable
+  * sudo apt full-upgrade
