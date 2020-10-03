@@ -116,3 +116,7 @@ VIM Escape  :w :q :qa!
   * apt list
   * apt list --upgradable
   * sudo apt full-upgrade
+  * sudo apt remove lolcat
+  * sudo snap install lolcat
+  * sudo snap info node
+  * sudo snap install --channel=14/stable --classic node
