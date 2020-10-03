@@ -142,3 +142,14 @@ VIM Escape  :w :q :qa!
   * touch ${FILE_PREFIX}{1..10}.txt
   * echo done # this is an echo
   * 
+  * 
+  * #! /bin/bash
+  * DESTINATION=$1
+  * read -p "enter a file prefix: " FILE_PREFIX
+
+  * # this is a comment
+  * mkdir -p $DESTINATION
+  * cd DESTINATION
+  * touch ${FILE_PREFIX}{1..10}.txt
+  * echo done # this is an echo
+  * 
