@@ -131,3 +131,14 @@ VIM Escape  :w :q :qa!
   * bash gen_files.sh
   * #! /snap/bin/node
   * console.log('this is running from node.js')
+  * 
+  * #! /bin/bash
+  * DESTINATION=~/temp
+  * FILE_PREFIX=file
+
+  * # this is a comment
+  * mkdir -p $DESTINATION
+  * cd DESTINATION
+  * touch ${FILE_PREFIX}{1..10}.txt
+  * echo done # this is an echo
+  * 
