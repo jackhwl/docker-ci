@@ -3,10 +3,10 @@
   * ## overiding default commands
     * docker run busybox echo hi there
     * docker run busybox ls
-  * ## Listing Running Containers
+  * ## Listing Running Containers 
     * docker ps
     * docker ps --all
-  * ## Container Lifecycle
+  * ## 18. Container Lifecycle 
     * docker run = docker create + docker start
     * docker create hello-world
     * docker start containerId
