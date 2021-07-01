@@ -10,12 +10,12 @@
     * docker run = docker create + docker start
     * docker create hello-world
     * docker start containerId
-  * ## Restarting Stopped Containers
+  * ## 19. Restarting Stopped Containers
     * docker ps --all
     * docker start -a containerId
-  * ## Removing Stopped Containers
+  * ## 20. Removing Stopped Containers
     * docker system prune
-  * ## Retrieving Log Outputs
+  * ## 21. Retrieving Log Outputs
     * docker logs containerId
   * ## Stopping Containers
     * docker stop containerId after 10 seconds will fall back to kill command
