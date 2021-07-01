@@ -17,10 +17,12 @@
     * docker system prune
   * ## 21. Retrieving Log Outputs
     * docker logs containerId
-  * ## Stopping Containers
+  * ## 22. Stopping Containers
     * docker stop containerId after 10 seconds will fall back to kill command
     * docker kill containerId
-  * ## Multi-Command Containers, Executing Commands in Running Containers, The Purpose of the IT Flag
+  * ## 23. Multi-Command Containers
+  * ## 24. Executing Commands in Running Containers, 
+  * ## 25. The Purpose of the IT Flag
     * docker run redis
     * docker exec -it containerId redis-cli
     * -it = -i -t
