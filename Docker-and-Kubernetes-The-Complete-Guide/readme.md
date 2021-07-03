@@ -33,9 +33,9 @@
   * ## 31. Building a Dockerfile
     * docker build .
     * docker run containerId
-  * ## Dockerfile Teardown
-  * ## What's a Base Image?up
-  * ## The Build Process in Detail
+  * ## 32. Dockerfile Teardown
+  * ## 33. What's a Base Image?up
+  * ## 34. The Build Process in Detail
   * ## A Brief Recap
   * ## Rebuilds with Cache
     * docker build -t jackhwl/redis:latest .
