@@ -36,10 +36,11 @@
   * ## 32. Dockerfile Teardown
   * ## 33. What's a Base Image?up
   * ## 34. The Build Process in Detail
-  * ## A Brief Recap
-  * ## Rebuilds with Cache
+  * ## 35. A Brief Recap
+  * ## 36. Rebuilds with Cache
+  * ## 37. Tagging an Image
     * docker build -t jackhwl/redis:latest .
-  * ## Manual Image Generation with Docker Commit
+  * ## 39. Manual Image Generation with Docker Commit
     * docker commit -c 'CMD ["redis-serer"]' containerId
     * docker build -t jackhwl/simpleweb .
     * docker run -p 8090:8090 jackhwl/simpleweb
