@@ -29,8 +29,8 @@
     * docker exec -it containerId sh
     * docker run -it imageName sh
 # Building Custom Images Through Docker Server
-  * ## Creating Docker Images
-  * ## Building a Dockerfile
+  * ## 29. Creating Docker Images
+  * ## 31. Building a Dockerfile
     * docker build .
     * docker run containerId
   * ## Dockerfile Teardown
