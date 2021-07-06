@@ -51,6 +51,7 @@
   * docker-compose up -d
   * docker-compose up --build
   * docker-compose 
+* ## 60. Automatic Container Restarts  
   * Restart Polices: no, always, on-failure, unless-stopped
   * docker-compose ps
 # Creating a Production-Grade Workflow
