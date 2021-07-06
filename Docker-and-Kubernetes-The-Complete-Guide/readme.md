@@ -55,6 +55,10 @@
   * Restart Polices: no, always, on-failure, unless-stopped
   * docker-compose ps
 # Creating a Production-Grade Workflow
+* ## 68. Necessary Commands
+  * npm run start
+  * npm run test
+  * npm run build
   * docker build -f Dockerfile.dev .
   * docker run -p 3000:3000 -v /app/node_modules -v pwd:/app ContainerId
   * docker run -it frontend-web npm run test
