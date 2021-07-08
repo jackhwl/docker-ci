@@ -63,5 +63,9 @@
   * docker build -f Dockerfile.dev .
   ## 72. Starting the Container
   * docker run -p 3000:3000 -v /app/node_modules -v pwd:/app ContainerId
+  ## 74. Windows not Detecting Changes - WSL2 Update
+    https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/learn/lecture/11436998#questions/14297316
+  * docker build -f Dockerfile.dev -t wenlin:frontend .
+  * docker run -it -p 3000:3000 -v /home/node/app/node_modules -v ~/frontend:/home/node/app wenlin:frontend
   * docker run -it frontend-web npm run test
   * docker exec -it frontend_web_1 npm run test
