@@ -66,6 +66,10 @@
   ## 74. Windows not Detecting Changes - WSL2 Update
     https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/learn/lecture/11436998#questions/14297316
   * docker build -f Dockerfile.dev -t wenlin:frontend .
+  ## 75. Bookmarking Volumes
   * docker run -it -p 3000:3000 -v /home/node/app/node_modules -v ~/frontend:/home/node/app wenlin:frontend
+  ## 79. [Windows not Detecting Changes - Docker Compose](https://stackoverflow.com/questions/44643045/running-development-server-with-create-react-app-inside-of-a-docker-container)
+  ## 82. Live Updating Tests  
+  * docker-compose up
   * docker run -it frontend-web npm run test
   * docker exec -it frontend_web_1 npm run test
