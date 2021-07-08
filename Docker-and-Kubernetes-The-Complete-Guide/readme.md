@@ -59,7 +59,9 @@
   * npm run start
   * npm run test
   * npm run build
+  ## 69. Creating the Dev Dockerfile
   * docker build -f Dockerfile.dev .
+  ## 72. Starting the Container
   * docker run -p 3000:3000 -v /app/node_modules -v pwd:/app ContainerId
   * docker run -it frontend-web npm run test
   * docker exec -it frontend_web_1 npm run test
