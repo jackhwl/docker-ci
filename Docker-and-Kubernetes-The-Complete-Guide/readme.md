@@ -74,3 +74,7 @@
   * docker run -it frontend-web npm run test
   * docker exec -it frontend_web_1 npm run test
   ## 83. Docker Compose for Running Tests
+  ## 90. Implementing Multi-Step Builds
+  ## 91. Running Nginx
+  # Section 7: Continuous Integration and Deployment with AWS
+  
