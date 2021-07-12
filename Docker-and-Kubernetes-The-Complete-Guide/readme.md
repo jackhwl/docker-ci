@@ -77,4 +77,5 @@
   ## 90. Implementing Multi-Step Builds
   ## 91. Running Nginx
   # Section 7: Continuous Integration and Deployment with AWS
-  
+  ## 106. Exposing Ports Through the Dockerfile
+  ## 118. Worker Process Setup
