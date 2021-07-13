@@ -79,3 +79,5 @@
   # Section 7: Continuous Integration and Deployment with AWS
   ## 106. Exposing Ports Through the Dockerfile
   ## 118. Worker Process Setup
+  ## 119. Important note about PG module version
+  ## 121. Important Update for Table Query
