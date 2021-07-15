@@ -81,3 +81,5 @@
   ## 118. Worker Process Setup
   ## 119. Important note about PG module version
   ## 121. Important Update for Table Query
+  ## 125. Generating the React App
+  ## 126. Fetching Data in the React App
