@@ -91,3 +91,5 @@
   ## 148. Opening Websocket Connections
   ## 151. Production Dockerfiles
   ## 154. Altering Nginx's Listen Port
+  ## 193. Mapping Existing Knowledge
+  * kubectl cluster-info
