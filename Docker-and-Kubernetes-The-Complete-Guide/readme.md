@@ -93,3 +93,4 @@
   ## 154. Altering Nginx's Listen Port
   ## 193. Mapping Existing Knowledge
   * kubectl cluster-info
+  ## 195. Adding Configuration Files
