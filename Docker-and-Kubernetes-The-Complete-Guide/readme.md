@@ -96,3 +96,8 @@
   ## 195. Adding Configuration Files
   ## 196. Object Types and API Versions
   ## 198. Service Config Files in Depth
+  * kubectl apply -f .\client-pod.yaml
+  * kubectl apply -f .\client-node-port.yaml
+  * kubectl get pods
+  * kubectl get services
+  ## 199. Connecting to Running Containers

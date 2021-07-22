@@ -10,3 +10,4 @@ spec:
       image: jackhwl/multi-client
       ports:
         - containerPort: 3000
+      imagePullPolicy: Always
