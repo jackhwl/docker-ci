@@ -94,3 +94,5 @@
   ## 193. Mapping Existing Knowledge
   * kubectl cluster-info
   ## 195. Adding Configuration Files
+  ## 196. Object Types and API Versions
+  ## 198. Service Config Files in Depth
