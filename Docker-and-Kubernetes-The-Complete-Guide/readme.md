@@ -101,3 +101,5 @@
   * kubectl get pods
   * kubectl get services
   ## 199. Connecting to Running Containers
+  ## 200. The Entire Deployment Flow
+  ## 201. Imperative vs Declarative Deployments
